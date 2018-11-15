@@ -42,6 +42,10 @@ git remote add origin git@github-second:second/test.git
 
 ### 进入clone下来的项目--->.git --->config--->"url = git@github-second:xxx/xxx.git"
 
+[remote "origin"]
+	url = git@github-second:xxx/xxx.git
+
+
 
 ###解决 idea无法同步“Could not read from remote repository的问题”
 ```$xslt
